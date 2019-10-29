@@ -1,0 +1,66 @@
+instal node js
+
+vs-code extension (plugin) : html snippet, html css support, intel sense, js css formater, live server
+
+list untuk font : font google
+
+//keitka pointer menyentuh obejek, warna objek akan berubah
+&:hover {
+	color: rgba(0,0,0,0);
+}
+
+//untuk menambahkan warna transparant pada gambar agar tulisan terbaca
+.image-overlay{
+	width: %;
+	height: %;
+	background-color: rgba(0,0,0,0);
+}
+
+//untuk membuat container (membuat objek sedikit kedalam)
+<div class="container"></div>
+
+format CSS :
+jika di html id pakai #
+jika di html kelas pakai .
+
+background-image: url('')
+
+
+unused index3.html
+<!-- skill Item 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+          </div>
+        </div>
+
+        <!-- skill Item 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+          </div>
+        </div>
+
+        <!-- skill Item 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->

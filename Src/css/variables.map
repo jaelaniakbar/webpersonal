@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../../src/scss/variables.scss"
+	],
+	"sourcesContent": [
+		"$warna-text-color: #b79f57;\r\n$bg-section-primary: #ffffff;"
+	],
+	"names": [],
+	"mappings": ""
+}

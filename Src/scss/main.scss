@@ -1,0 +1,66 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'variables.scss';
+@import 'navbar.scss';
+@import 'header.scss';
+@import 'sections.scss';
+@import 'footer.scss';
+@import 'base.scss';
+@import 'components.scss';
+
+.headerbackground {
+	background: transparent url("/src/img/MH.jpg") no-repeat center center;
+	padding-top:100px;
+}
+
+h1 {
+	font-size:250%;
+	color: black;
+	text-shadow : horizontal-shadow vertical-shadow blur color, horizontal-shadow vertical-shadow blur color;
+	text-shadow	: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+p {
+	font-weight	: bold;
+	text-shadow : horizontal-shadow vertical-shadow blur color, horizontal-shadow vertical-shadow blur color;
+	text-shadow	: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+p.MyTitle{
+	font-weight:bolder;
+	font-size:150%;
+}
+
+a {
+	font-weight:bold;
+	color:black;
+	text-shadow : horizontal-shadow vertical-shadow blur color, horizontal-shadow vertical-shadow blur color;
+	text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+h2{
+	text-shadow : horizontal-shadow vertical-shadow blur color, horizontal-shadow vertical-shadow blur color;
+	text-shadow	: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.nav-hvr{
+	&:hover {
+		color: rgba(0,0,0,0);
+	}
+}
+
+#logomastery{
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.BG3 {
+	background: no-repeat center center;
+	background-image: url('/src/img/logopython.jpg'); 
+	background-size:cover;
+}
+
+.background-welcome{
+
+}
